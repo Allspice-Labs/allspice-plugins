@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "nerdpress-support",
+  "displayName": "NerdPress Guided Agent Connector",
+  "category": "website",
+  "version": "1.0.0",
+  "description": "Site health and guided WordPress changes on the publisher's own site, scoped by permissions the owner grants in wp-admin."
+}

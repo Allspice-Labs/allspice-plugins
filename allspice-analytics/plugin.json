@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "allspice-analytics",
+  "displayName": "Allspice Analytics",
+  "category": "analytics",
+  "logo": "logo.svg",
+  "version": "1.0.0",
+  "description": "The site's traffic and revenue numbers: top posts, trends, and revenue summaries from Allspice Analytics."
+}

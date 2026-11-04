@@ -1,0 +1,38 @@
+{
+  "plugins": [
+    {
+      "name": "allspice-analytics",
+      "description": "The site's traffic and revenue numbers: top posts, trends, and revenue summaries from Allspice Analytics.",
+      "keywords": [
+        "analytics",
+        "traffic",
+        "revenue",
+        "blog",
+        "allspice"
+      ],
+      "category": "analytics",
+      "homepage": "https://allspicelabs.com",
+      "source": {
+        "type": "local",
+        "path": "./allspice-analytics"
+      }
+    },
+    {
+      "name": "nerdpress-support",
+      "description": "NerdPress Guided Agent Connector: site health and guided WordPress changes for the publisher's own site, with owner-scoped permissions.",
+      "keywords": [
+        "wordpress",
+        "nerdpress",
+        "support",
+        "site health",
+        "blog"
+      ],
+      "category": "website",
+      "homepage": "https://www.nerdpress.net",
+      "source": {
+        "type": "local",
+        "path": "./nerdpress-support"
+      }
+    }
+  ]
+}

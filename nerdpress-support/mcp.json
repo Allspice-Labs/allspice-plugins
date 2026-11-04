@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/mcp.schema.json",
+  "mcpServers": {
+    "nerdpress": {
+      "type": "streamable-http",
+      "url": "https://support-mcp.nerdpress.net/mcp/example.com"
+    }
+  }
+}
