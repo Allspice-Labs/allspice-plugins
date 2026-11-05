@@ -12,8 +12,8 @@ Mailchimp for them to send.
 No tool on this server sends, schedules, deletes, or adds or removes subscribers,
 and the service behind it has no way to. The publisher sends every email from their
 own platform. Flodesk's API has no campaigns, so on Flodesk the bot can read lists
-but cannot read past emails or create drafts. It hands the owner the email to paste
-instead.
+but cannot read past emails or create drafts. It still writes and previews the
+email, then hands the owner the copy to build it in Flodesk's editor.
 
 ## Connecting
 

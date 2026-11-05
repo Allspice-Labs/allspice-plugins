@@ -13,9 +13,9 @@ send".
 
 1. **Know the platform.** Call `get_email_account` first. Read `capabilities`:
    - `drafts: false` (Flodesk) means you cannot read past emails or save drafts. Say
-     so plainly, still write and render the email, and offer the owner the ESP HTML
-     (`get_campaign`-style copy is not available there) to paste into Flodesk
-     themselves.
+     so plainly. You can still write the email and show the preview. Then give the
+     owner the subject, preview text, copy and recipe links to build it in Flodesk's
+     own editor, because nothing can be imported into Flodesk.
    - `templates: true` means saved templates exist (`list_templates`) if the owner
      prefers their own design.
    - `brand` is the look `render_email` will use (colors, fonts, logo, sign-off).
