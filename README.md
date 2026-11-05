@@ -10,6 +10,10 @@ stored encrypted.
 
 - **allspice-analytics** — the hosted Allspice Analytics MCP (traffic, top
   posts, revenue). Fixed endpoint, OAuth 2.1 or a per-domain bearer key.
+- **allspice-email** — the hosted Allspice Email MCP (the site's own Kit,
+  MailerLite or Mailchimp): recipes, branded layout, a chat preview, and DRAFTS
+  only, never sending. Fixed endpoint, OAuth 2.1 only, with its own email
+  approval. Its two draft tools are writes, so keep them behind approval cards.
 - **nerdpress-support** — NerdPress's Guided Agent Connector for the
   publisher's own WordPress site. Per-site endpoint; set the bare domain on
   the installed server. Its write tools must stay behind approval cards.

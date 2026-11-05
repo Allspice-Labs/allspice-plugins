@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "allspice-email",
+  "displayName": "Allspice Email",
+  "category": "marketing",
+  "logo": "logo.svg",
+  "version": "1.0.0",
+  "description": "Draft newsletters in the site's own email platform (Kit, MailerLite, Mailchimp): recipes, branded layout and a chat preview. Drafts only, never sends."
+}

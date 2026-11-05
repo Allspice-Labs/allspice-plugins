@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/mcp.schema.json",
+  "mcpServers": {
+    "allspice-email": {
+      "type": "streamable-http",
+      "url": "https://analytics-mcp.allspicelabs.com/email/mcp"
+    }
+  }
+}

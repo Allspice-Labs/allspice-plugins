@@ -18,6 +18,24 @@
       }
     },
     {
+      "name": "allspice-email",
+      "description": "Draft newsletters in the site's own email platform (Kit, MailerLite, Mailchimp): recipes, branded layout and a chat preview. Drafts only, never sends.",
+      "keywords": [
+        "email",
+        "newsletter",
+        "kit",
+        "mailchimp",
+        "mailerlite",
+        "allspice"
+      ],
+      "category": "marketing",
+      "homepage": "https://allspicelabs.com",
+      "source": {
+        "type": "local",
+        "path": "./allspice-email"
+      }
+    },
+    {
       "name": "allspice-social",
       "description": "Post and schedule to the site's Pinterest, Instagram, Facebook, YouTube and TikTok, and see how posts did.",
       "keywords": [
