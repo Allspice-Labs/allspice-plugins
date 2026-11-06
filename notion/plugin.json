@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "notion",
+  "displayName": "Notion",
+  "category": "productivity",
+  "version": "1.0.0",
+  "description": "Pages and databases in Notion, such as an editorial calendar or recipe notes."
+}

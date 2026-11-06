@@ -19,7 +19,7 @@
     },
     {
       "name": "nerdpress-support",
-      "description": "NerdPress Guided Agent Connector: site health and guided WordPress changes for the publisher's own site, with owner-scoped permissions.",
+      "description": "Site health and guided WordPress changes on the publisher's own site, scoped by permissions the owner grants in wp-admin.",
       "keywords": [
         "wordpress",
         "nerdpress",
@@ -356,6 +356,198 @@
         "type": "local",
         "path": "./occasio"
       }
+    },
+    {
+      "name": "canva",
+      "description": "Pin graphics, social images and designs in Canva.",
+      "keywords": [
+        "pins",
+        "graphics",
+        "design"
+      ],
+      "category": "design",
+      "source": {
+        "type": "local",
+        "path": "./canva"
+      },
+      "homepage": "https://www.canva.com"
+    },
+    {
+      "name": "notion",
+      "description": "Pages and databases in Notion, such as an editorial calendar or recipe notes.",
+      "keywords": [
+        "editorial calendar",
+        "notes",
+        "docs"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./notion"
+      },
+      "homepage": "https://www.notion.so"
+    },
+    {
+      "name": "dropbox",
+      "description": "Photos and files in Dropbox, such as recipe shoots.",
+      "keywords": [
+        "photos",
+        "files",
+        "storage"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./dropbox"
+      },
+      "homepage": "https://www.dropbox.com"
+    },
+    {
+      "name": "airtable",
+      "description": "Bases and records in Airtable, such as a content plan or brand deal tracker.",
+      "keywords": [
+        "content plan",
+        "tracker",
+        "database"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./airtable"
+      },
+      "homepage": "https://airtable.com"
+    },
+    {
+      "name": "asana",
+      "description": "Projects and tasks in Asana.",
+      "keywords": [
+        "tasks",
+        "projects",
+        "planning"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./asana"
+      },
+      "homepage": "https://asana.com"
+    },
+    {
+      "name": "monday",
+      "description": "Boards and items in monday.com.",
+      "keywords": [
+        "boards",
+        "tasks",
+        "planning"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./monday"
+      },
+      "homepage": "https://monday.com"
+    },
+    {
+      "name": "clickup",
+      "description": "Tasks, docs and lists in ClickUp.",
+      "keywords": [
+        "tasks",
+        "docs",
+        "planning"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./clickup"
+      },
+      "homepage": "https://clickup.com"
+    },
+    {
+      "name": "fireflies",
+      "description": "Meeting transcripts, summaries and action items from Fireflies.",
+      "keywords": [
+        "meetings",
+        "notes",
+        "transcripts"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./fireflies"
+      }
+    },
+    {
+      "name": "otter",
+      "description": "Meeting history and transcripts from Otter.",
+      "keywords": [
+        "meetings",
+        "notes",
+        "transcripts"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./otter"
+      }
+    },
+    {
+      "name": "upwork",
+      "description": "Find and hire freelancers on Upwork, such as photographers, editors or VAs.",
+      "keywords": [
+        "hiring",
+        "freelancers",
+        "help"
+      ],
+      "category": "people",
+      "source": {
+        "type": "local",
+        "path": "./upwork"
+      }
+    },
+    {
+      "name": "stripe",
+      "description": "Payments, customers and products in Stripe, such as cookbook or meal plan sales.",
+      "keywords": [
+        "payments",
+        "sales",
+        "products"
+      ],
+      "category": "finance",
+      "source": {
+        "type": "local",
+        "path": "./stripe"
+      },
+      "homepage": "https://stripe.com"
+    },
+    {
+      "name": "wordpress-com",
+      "description": "Posts, pages and settings on a WordPress.com site.",
+      "keywords": [
+        "wordpress",
+        "posts",
+        "site"
+      ],
+      "category": "website",
+      "source": {
+        "type": "local",
+        "path": "./wordpress-com"
+      },
+      "homepage": "https://wordpress.com"
+    },
+    {
+      "name": "wix",
+      "description": "Pages, blog posts and store on a Wix site.",
+      "keywords": [
+        "wix",
+        "site",
+        "blog"
+      ],
+      "category": "website",
+      "source": {
+        "type": "local",
+        "path": "./wix"
+      },
+      "homepage": "https://www.wix.com"
     }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "fireflies",
+  "displayName": "Fireflies",
+  "category": "productivity",
+  "logo": "logo.png",
+  "version": "1.0.0",
+  "description": "Meeting transcripts, summaries and action items from Fireflies."
+}

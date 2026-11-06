@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "dropbox",
+  "displayName": "Dropbox",
+  "category": "productivity",
+  "version": "1.0.0",
+  "description": "Photos and files in Dropbox, such as recipe shoots."
+}

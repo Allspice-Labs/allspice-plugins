@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "stripe",
+  "displayName": "Stripe",
+  "category": "finance",
+  "version": "1.0.0",
+  "description": "Payments, customers and products in Stripe, such as cookbook or meal plan sales."
+}

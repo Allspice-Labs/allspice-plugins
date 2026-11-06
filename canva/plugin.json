@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "canva",
+  "displayName": "Canva",
+  "category": "design",
+  "version": "1.0.0",
+  "description": "Pin graphics, social images and designs in Canva."
+}

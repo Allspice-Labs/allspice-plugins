@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "wordpress-com",
+  "displayName": "WordPress.com",
+  "category": "website",
+  "version": "1.0.0",
+  "description": "Posts, pages and settings on a WordPress.com site."
+}

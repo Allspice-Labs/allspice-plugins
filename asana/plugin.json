@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "asana",
+  "displayName": "Asana",
+  "category": "productivity",
+  "version": "1.0.0",
+  "description": "Projects and tasks in Asana."
+}

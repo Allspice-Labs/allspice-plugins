@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "upwork",
+  "displayName": "Upwork",
+  "category": "people",
+  "logo": "logo.png",
+  "version": "1.0.0",
+  "description": "Find and hire freelancers on Upwork, such as photographers, editors or VAs."
+}

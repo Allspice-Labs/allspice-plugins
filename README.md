@@ -44,6 +44,19 @@ ones carry a Writes note in their README: keep approvals on Ask.
 - **fathom**: Fathom. Meeting recordings, summaries and action items from Fathom.
 - **gamma**: Gamma. Make presentations and documents in Gamma, such as a media kit.
 - **occasio**: Occasio. Content intelligence for the site's posts from Occasio, built on its Google Analytics and Search Console data.
+- **canva**: Canva. Pin graphics, social images and designs in Canva.
+- **notion**: Notion. Pages and databases in Notion, such as an editorial calendar or recipe notes.
+- **dropbox**: Dropbox. Photos and files in Dropbox, such as recipe shoots.
+- **airtable**: Airtable. Bases and records in Airtable, such as a content plan or brand deal tracker.
+- **asana**: Asana. Projects and tasks in Asana.
+- **monday**: monday.com. Boards and items in monday.com.
+- **clickup**: ClickUp. Tasks, docs and lists in ClickUp.
+- **fireflies**: Fireflies. Meeting transcripts, summaries and action items from Fireflies.
+- **otter**: Otter. Meeting history and transcripts from Otter.
+- **upwork**: Upwork. Find and hire freelancers on Upwork, such as photographers, editors or VAs.
+- **stripe**: Stripe. Payments, customers and products in Stripe, such as cookbook or meal plan sales.
+- **wordpress-com**: WordPress.com. Posts, pages and settings on a WordPress.com site.
+- **wix**: Wix. Pages, blog posts and store on a Wix site.
 
 Vendor logos are their owners' trademarks, shown to identify the service. They come
 from cursor/plugins (MIT licensed).
