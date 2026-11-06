@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "semrush",
+  "displayName": "Semrush",
+  "category": "marketing",
+  "logo": "logo.png",
+  "version": "1.0.0",
+  "description": "Keyword research, rankings, backlinks and competitor traffic from Semrush."
+}

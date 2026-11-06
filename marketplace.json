@@ -33,6 +33,329 @@
         "type": "local",
         "path": "./nerdpress-support"
       }
+    },
+    {
+      "name": "mailerlite",
+      "description": "Newsletter subscribers, groups, campaigns and automations in MailerLite.",
+      "keywords": [
+        "newsletter",
+        "email",
+        "subscribers"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./mailerlite"
+      }
+    },
+    {
+      "name": "beehiiv",
+      "description": "Newsletter posts, subscribers and tags in beehiiv.",
+      "keywords": [
+        "newsletter",
+        "email",
+        "subscribers"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./beehiiv"
+      }
+    },
+    {
+      "name": "klaviyo",
+      "description": "Email profiles, segments, campaigns and flows in Klaviyo.",
+      "keywords": [
+        "newsletter",
+        "email",
+        "segments"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./klaviyo"
+      }
+    },
+    {
+      "name": "brevo",
+      "description": "Contacts and email campaigns in Brevo.",
+      "keywords": [
+        "newsletter",
+        "email",
+        "contacts"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./brevo"
+      }
+    },
+    {
+      "name": "semrush",
+      "description": "Keyword research, rankings, backlinks and competitor traffic from Semrush.",
+      "keywords": [
+        "seo",
+        "keywords",
+        "backlinks"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./semrush"
+      }
+    },
+    {
+      "name": "ahrefs",
+      "description": "Keywords, backlinks, rankings and site health from Ahrefs.",
+      "keywords": [
+        "seo",
+        "keywords",
+        "backlinks"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./ahrefs"
+      }
+    },
+    {
+      "name": "similarweb",
+      "description": "Traffic estimates and audience comparisons for any site.",
+      "keywords": [
+        "traffic",
+        "competitors",
+        "research"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./similarweb"
+      }
+    },
+    {
+      "name": "profound",
+      "description": "How often AI answers mention and cite the site, from Profound.",
+      "keywords": [
+        "ai search",
+        "citations",
+        "visibility"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./profound"
+      }
+    },
+    {
+      "name": "buffer",
+      "description": "Draft and schedule social posts across the channels connected to Buffer.",
+      "keywords": [
+        "social",
+        "scheduling",
+        "instagram"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./buffer"
+      }
+    },
+    {
+      "name": "meta-ads",
+      "description": "Facebook and Instagram ad campaigns and their results.",
+      "keywords": [
+        "ads",
+        "facebook",
+        "instagram"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./meta-ads"
+      }
+    },
+    {
+      "name": "tiktok-for-business",
+      "description": "TikTok ad campaigns, audiences and reports.",
+      "keywords": [
+        "ads",
+        "tiktok",
+        "video"
+      ],
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./tiktok-for-business"
+      }
+    },
+    {
+      "name": "shopify",
+      "description": "Products, orders and customers in the site's Shopify store (cookbooks, meal plans, merch).",
+      "keywords": [
+        "store",
+        "cookbook",
+        "orders"
+      ],
+      "category": "sales",
+      "source": {
+        "type": "local",
+        "path": "./shopify"
+      }
+    },
+    {
+      "name": "square",
+      "description": "Payments, orders, catalog and invoices in Square.",
+      "keywords": [
+        "payments",
+        "orders",
+        "invoices"
+      ],
+      "category": "sales",
+      "source": {
+        "type": "local",
+        "path": "./square"
+      }
+    },
+    {
+      "name": "quickbooks",
+      "description": "Income, expenses and invoices in QuickBooks Online.",
+      "keywords": [
+        "bookkeeping",
+        "invoices",
+        "expenses"
+      ],
+      "category": "finance",
+      "source": {
+        "type": "local",
+        "path": "./quickbooks"
+      }
+    },
+    {
+      "name": "hunter",
+      "description": "Find and verify contact emails for brand partnership pitches.",
+      "keywords": [
+        "brand deals",
+        "outreach",
+        "contacts"
+      ],
+      "category": "sales",
+      "source": {
+        "type": "local",
+        "path": "./hunter"
+      }
+    },
+    {
+      "name": "typeform",
+      "description": "Reader surveys and their responses in Typeform.",
+      "keywords": [
+        "surveys",
+        "forms",
+        "readers"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./typeform"
+      }
+    },
+    {
+      "name": "jotform",
+      "description": "Forms and submissions in Jotform.",
+      "keywords": [
+        "forms",
+        "surveys",
+        "submissions"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./jotform"
+      }
+    },
+    {
+      "name": "calendly",
+      "description": "Availability and bookings in Calendly, for brand calls and shoots.",
+      "keywords": [
+        "scheduling",
+        "meetings",
+        "calendar"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./calendly"
+      }
+    },
+    {
+      "name": "todoist",
+      "description": "Tasks and projects in Todoist.",
+      "keywords": [
+        "tasks",
+        "to-do",
+        "planning"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./todoist"
+      }
+    },
+    {
+      "name": "trello",
+      "description": "Boards and cards in Trello, such as an editorial calendar.",
+      "keywords": [
+        "editorial calendar",
+        "boards",
+        "planning"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./trello"
+      }
+    },
+    {
+      "name": "fathom",
+      "description": "Meeting recordings, summaries and action items from Fathom.",
+      "keywords": [
+        "meetings",
+        "notes",
+        "transcripts"
+      ],
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./fathom"
+      }
+    },
+    {
+      "name": "gamma",
+      "description": "Make presentations and documents in Gamma, such as a media kit.",
+      "keywords": [
+        "media kit",
+        "presentations",
+        "documents"
+      ],
+      "category": "design",
+      "source": {
+        "type": "local",
+        "path": "./gamma"
+      }
+    },
+    {
+      "name": "occasio",
+      "description": "Content intelligence for the site's posts from Occasio, built on its Google Analytics and Search Console data.",
+      "keywords": [
+        "content",
+        "google analytics",
+        "search console"
+      ],
+      "category": "marketing",
+      "homepage": "https://occasio.digital",
+      "source": {
+        "type": "local",
+        "path": "./occasio"
+      }
     }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "meta-ads",
+  "displayName": "Meta Ads",
+  "category": "marketing",
+  "logo": "logo.png",
+  "version": "1.0.0",
+  "description": "Facebook and Instagram ad campaigns and their results."
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "jotform",
+  "displayName": "Jotform",
+  "category": "productivity",
+  "logo": "logo.png",
+  "version": "1.0.0",
+  "description": "Forms and submissions in Jotform."
+}

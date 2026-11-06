@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "profound",
+  "displayName": "Profound",
+  "category": "marketing",
+  "logo": "logo.png",
+  "version": "1.0.0",
+  "description": "How often AI answers mention and cite the site, from Profound."
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "shopify",
+  "displayName": "Shopify",
+  "category": "sales",
+  "logo": "logo.png",
+  "version": "1.0.0",
+  "description": "Products, orders and customers in the site's Shopify store (cookbooks, meal plans, merch)."
+}

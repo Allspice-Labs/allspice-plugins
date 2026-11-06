@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "occasio",
+  "displayName": "Occasio",
+  "category": "marketing",
+  "version": "1.0.0",
+  "description": "Content intelligence for the site's posts from Occasio, built on its Google Analytics and Search Console data."
+}
