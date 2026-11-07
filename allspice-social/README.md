@@ -1,7 +1,7 @@
 # Allspice Social
 
 Connects a bot team to the site's own social accounts through the hosted Allspice
-Social MCP server (`https://analytics-mcp.allspicelabs.com/social/mcp`): Pinterest,
+Social MCP server (`https://social-mcp.allspicelabs.com/mcp`): Pinterest,
 Instagram, Facebook, YouTube and TikTok.
 
 ## Connecting

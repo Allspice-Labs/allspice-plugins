@@ -3,7 +3,7 @@
   "mcpServers": {
     "allspice-social": {
       "type": "streamable-http",
-      "url": "https://analytics-mcp.allspicelabs.com/social/mcp"
+      "url": "https://social-mcp.allspicelabs.com/mcp"
     }
   }
 }
