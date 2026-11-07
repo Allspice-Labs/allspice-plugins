@@ -18,6 +18,25 @@
       }
     },
     {
+      "name": "allspice-social",
+      "description": "Post and schedule to the site's Pinterest, Instagram, Facebook, YouTube and TikTok, and see how posts did.",
+      "keywords": [
+        "social",
+        "pinterest",
+        "instagram",
+        "youtube",
+        "tiktok",
+        "facebook",
+        "allspice"
+      ],
+      "category": "marketing",
+      "homepage": "https://allspicelabs.com",
+      "source": {
+        "type": "local",
+        "path": "./allspice-social"
+      }
+    },
+    {
       "name": "nerdpress-support",
       "description": "Site health and guided WordPress changes on the publisher's own site, scoped by permissions the owner grants in wp-admin.",
       "keywords": [
