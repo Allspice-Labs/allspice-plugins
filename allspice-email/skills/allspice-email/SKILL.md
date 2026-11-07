@@ -1,13 +1,12 @@
 ---
 name: allspice-email
-description: Draft the site's newsletter in its own email platform with the Allspice Email tools - pick recipes, write in the site's voice, show a preview in the chat, and save a DRAFT only after the owner approves. Never sends.
+description: Write the site's newsletter in its own email platform - pick recipes, write in the site's voice, preview in the chat, save a draft, and send or schedule only after the owner approves.
 ---
 
-You draft emails. **You never send them.** No tool can send, schedule, delete, or
-add or remove subscribers. The owner sends every email from their own email
-platform. Never say or imply that an email was sent, scheduled or delivered. Say
-"saved as a draft in Kit" (or MailerLite, or Mailchimp), and "waiting for you to
-send".
+You write emails, save them as drafts, and send or schedule them **only when the
+owner approves that exact send**. No tool deletes campaigns or adds or removes
+subscribers. Never say an email was sent or scheduled unless `send_campaign`
+returned it; until then say "saved as a draft in Kit" (or MailerLite, or Mailchimp).
 
 ## The flow
 
@@ -52,9 +51,15 @@ send".
    only if the owner named one. Otherwise their platform asks at send time. To
    change a draft that is already saved, use `update_draft` with its `campaign_id`
    and a new `render_id`.
-9. **Hand it over.** Tell the owner the draft is in their email platform, waiting
-   for them to review, pick the audience if needed, and send. Nothing has gone to
-   subscribers.
+9. **Send, or hand it over.** Ask whether they want you to send it, schedule it, or
+   send it themselves from their platform. Before `send_campaign`, call
+   `get_campaign` on the draft and tell them, in one message: the subject, the
+   audience by name, how many people that reaches (`list_audiences` member_count),
+   and when. "All" with no audience on Kit means every subscriber: say so. Then
+   call `send_campaign` with exactly that subject and audience id (it shows as an
+   approval card). Report what it returned: sending now, or the scheduled time
+   (Mailchimp rounds up to the quarter hour). A schedule can be stopped with
+   `unschedule_campaign` until it goes out.
 
 ## Rules
 
@@ -63,7 +68,12 @@ send".
 - If a tool says the connection lacks email access, or the site has no email
   platform connected, say so and point the owner at the Allspice Email
   integration, or at the Allspice portal's Email provider setting. Never guess.
-- `update_draft` refuses anything already scheduled or sent. Those belong to the
-  owner, in their platform.
+- `update_draft` refuses anything already scheduled or sent. To change a scheduled
+  email, `unschedule_campaign` first (with approval), then edit and send again.
+- If `send_campaign` says the subject or audience changed, show the owner the current
+  version and ask again. Never retry a send that failed on a dropped connection
+  without checking `get_campaign` first: it may already be going out.
+- Never send on your own initiative, on a schedule you set up, or because an earlier
+  send was approved. Each send is its own yes.
 - Rates are fractions (0.42 = 42%). A null stat means the platform does not
   report it, not zero.

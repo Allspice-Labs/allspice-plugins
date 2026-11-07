@@ -1,32 +1,34 @@
 # Allspice Email
 
-Lets a bot team draft the site's newsletter in the publisher's **own** email
+Lets a bot team write the site's newsletter in the publisher's **own** email
 platform, through the hosted Allspice Email MCP server
-(`https://analytics-mcp.allspicelabs.com/email/mcp`): pick recipes from the site,
-write the copy, lay it out in the site's brand, show the owner a preview in the
-chat, and, once they approve it, save it as a **draft** in Kit, MailerLite or
-Mailchimp for them to send.
+(`https://email-mcp.allspicelabs.com/mcp`): pick recipes from the site, write the
+copy, lay it out in the site's brand, show the owner a preview in the chat, save it
+as a **draft** in Kit, MailerLite or Mailchimp, and send or schedule it once the
+owner approves.
 
-## Drafts only
+## Sending
 
-No tool on this server sends, schedules, deletes, or adds or removes subscribers,
-and the service behind it has no way to. The publisher sends every email from their
-own platform. Flodesk's API has no campaigns, so on Flodesk the bot can read lists
-but cannot read past emails or create drafts. It still writes and previews the
-email, then hands the owner the copy to build it in Flodesk's editor.
+Every send, schedule and unschedule waits for an approval card in the chat. The send
+carries the subject and audience the owner approved, and is refused if the draft
+changed after that. A scheduled email can be unscheduled until it goes out. No tool
+deletes campaigns or adds or removes subscribers. Flodesk's API has no campaigns, so
+on Flodesk the bot can read lists but cannot read past emails, draft or send. It
+still writes and previews the email, then hands the owner the copy to build it in
+Flodesk's editor.
 
 ## Connecting
 
-Install from the catalog (or **Integrations** → **+** → **From GitHub** with this
-folder's URL), then sign in when prompted: the Allspice portal asks you to pick a
-site and approve **email access**. That is a separate approval from the Allspice
+In the Allspice bots, turn on **Settings → Allspice connections → Let the team
+draft emails**. It connects with your Allspice sign-in and asks for **email access**
+for your site. That is a separate approval from the Allspice
 Analytics connector, so an analytics connection never gets email tools. The site's
 email platform must already be connected in the Allspice portal (Domain settings →
 Email provider). This connector never asks for, stores or sees that platform's
 key.
 
-There is no API-key option: email access is only granted through that approval
-screen, which records who approved it.
+There is no API-key option: email access is only granted through that switch, which
+records who approved it.
 
 ## What bots can do with it
 
@@ -34,5 +36,6 @@ screen, which records who approved it.
   open and click stats, saved templates, the site's recipes, and what was promoted
   recently.
 - Lay out an email (`render_email`) and attach its preview to the thread.
-- Create or edit a **draft**, after the owner says yes. Those two tools are writes,
-  so keep them behind approval cards (Ask mode).
+- Create or edit a **draft**, after the owner says yes.
+- Send it now or schedule it (`send_campaign`), or stop a schedule
+  (`unschedule_campaign`). Every one of these writes waits for an approval card.

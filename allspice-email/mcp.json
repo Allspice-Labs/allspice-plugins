@@ -3,7 +3,7 @@
   "mcpServers": {
     "allspice-email": {
       "type": "streamable-http",
-      "url": "https://analytics-mcp.allspicelabs.com/email/mcp"
+      "url": "https://email-mcp.allspicelabs.com/mcp"
     }
   }
 }

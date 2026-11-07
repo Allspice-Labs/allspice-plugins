@@ -19,7 +19,7 @@
     },
     {
       "name": "allspice-email",
-      "description": "Draft newsletters in the site's own email platform (Kit, MailerLite, Mailchimp): recipes, branded layout and a chat preview. Drafts only, never sends.",
+      "description": "Newsletters in the site's own email platform (Kit, MailerLite, Mailchimp): recipes, branded layout, a chat preview, drafts, and sending once the owner approves.",
       "keywords": [
         "email",
         "newsletter",
